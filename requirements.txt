@@ -1,0 +1,15 @@
+# CrewAI framework + native Gemini provider
+crewai[google-genai]==1.15.33
+# Built-in tools: ScrapeWebsiteTool, FileReadTool, FileWriterTool
+crewai-tools==1.15.33
+
+# REST API server
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+python-multipart==0.0.33   # file uploads (/agent3, /agent4, /agent6, /agent8)
+python-dotenv==1.2.4       # loads GEMINI_API_KEY from .env
+
+# Tools used by the agents
+ddgs==9.16.1               # free DuckDuckGo search (custom @tool, no API key)
+pandas==3.1.0              # custom sales-analysis tool (/agent4)
+pypdf==6.21.4              # free PDF text reader for resumes (/agent6)

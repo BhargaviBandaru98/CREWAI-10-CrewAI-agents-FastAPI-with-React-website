@@ -1,0 +1,4 @@
+Backend Python Developer (2+ years)
+Must have: Python, FastAPI or Django, REST API design, SQL (PostgreSQL), Git.
+Nice to have: Docker, AWS, experience with LLMs / AI agents (CrewAI, LangChain), unit testing with pytest.
+You will build and maintain APIs for our AI products.

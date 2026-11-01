@@ -1,0 +1,20 @@
+Product Sync - 28 October 2026
+Attendees: Anita (Product Manager), Ravi (Backend Lead), Sana (Designer), Karthik (QA)
+
+Anita: Thanks everyone. Main agenda is the mobile app launch date and the payment bug. Ravi, where are we on the payment bug?
+Ravi: We found the root cause. The retry logic was charging twice when the bank timed out. The fix is ready and in review.
+Anita: Great. Karthik, can you test the fix on staging?
+Karthik: Yes, I will finish regression testing on staging by Thursday, 30 October.
+Anita: Good. Now the launch. Marketing wants 15 November. Is that realistic?
+Ravi: Backend is fine for 15 November if the payment fix ships this week.
+Sana: The onboarding screens still need one round of user testing. I can run it with five users on Monday 3 November.
+Anita: OK, so we agree: launch date is 15 November, as long as the payment fix passes QA. Everyone agrees?
+Ravi: Agreed.
+Sana: Agreed.
+Anita: Decision made then. Also, we decided to drop the dark mode feature from version 1 and move it to version 1.1, because we don't have design time.
+Sana: Yes, I prefer that. I will share the updated onboarding designs with the team by Friday.
+Anita: I will update the launch plan and send it to marketing by tomorrow. Ravi, please write the release notes for the payment fix.
+Ravi: Sure, I'll have them ready before the fix ships.
+Anita: One open question is whether we support Android 10. Let's look at the analytics next week before deciding.
+Karthik: I can pull the Android version stats, no deadline needed.
+Anita: Thanks all, meeting closed.
